@@ -7,6 +7,17 @@ Play the game [here.](https://danbob81.github.io/Pokemon_Match/)
 
 <h4 align="center"><img src="./assets/images/bigImage.png" alt="site image"></h4>
 
+## Features
+
+- ### Executed:
+    - Game-play area which is the dominant section of the screen layout.
+    - Rules area, slightly smaller, with simple game instructions.
+    - Image section to the opposite side of the rules section balancing out the layout. NOTE: Only shows in desktop/laptop screen sizes.
+    - Score shows under game board.
+    - Replay button.
+    - Pop-up on game completion showing 'congratulations' message and yes/no option to play again.
+
+
 ## User Experience (UX) 
 - ### User Stories
     - I want to engage in a memory test game by pairing up identical images.
@@ -23,16 +34,15 @@ Play the game [here.](https://danbob81.github.io/Pokemon_Match/)
         - Google Fonts - [ArchitectsDaughter](https://bit.ly/3EwQP1N)
 
 
-## Features
+## User Experience (UX) 
 
-- ### Executed:
-    - Game-play area which is the dominant section of the screen layout.
-    - Rules area, slightly smaller, with simple game instructions.
-    - Image section to the opposite side of the rules section balancing out the layout. NOTE: Only shows in desktop/laptop screen sizes.
-    - Score shows under game board.
-    - Replay button.
-    - Pop-up on game completion showing 'congratulations' message and yes/no option to play again.
-
+- ### User Stories
+    - I want to engage in a memory test game by pairing up identical images.
+    - I expect feedback to confirm each matching pair made and the matched images to change image so I dont play the same card twice.
+    - I expect to view my score. 
+    - I expect confirmation that the game is completed.
+    - I expect to be able to play on different devices (laptop, mobile and tablet).
+    - I anticipate receiving confirmation for each successful match and for the matched images to be displayed.
 
 ## Technologies used
 
@@ -103,16 +113,7 @@ The deployed website was also tested using Chrome, Edge and Firefox as well as o
 from [freeCodeCamp](https://bit.ly/3bZtVE8) 
  
 ### Media:
-- Pokemon logo taken from [pngitem.com](https://bit.ly/2ZPHsvp)
-- Ash image taken from [pngitem.com](https://bit.ly/3jWp1Mf)
-- Pokemon images taken from [The Official Pokemon Website](https://bit.ly/3w0eDIa)
-- Pokemon sounds taken from Zedge 
-    - [Pokeball Catch by julianoc](https://bit.ly/3pX7PtN) - note: I edited the original mp3 file to create three separate files using WavePad Audio Editor (free download from Microsoft Store)
-    - [pokemon go R Close by Sivilian](https://bit.ly/3bt0bPF)
-    - [Pokemon Joins Team by AlberStelar](https://bit.ly/3mArm12)
-    - [pokemon GO level up by Coolbuddyn](https://bit.ly/3BtOToV)
+- Champions league logo [Free image webiste](https://freebiesupply.com/logos/uefa-champions-league-logo/)
+- Ronaldo Image [Ronadlo website](https://www.liveabout.com/cristiano-ronaldo-3557502)
 
-### Acknowledgements:
-- Code Institute for the lessons and support
-- My mentor Rohit Sharma for the helpful suggestions and guidance he has given during this project
-- Patrick Justus for the additional lessons and insights into web development
+    
