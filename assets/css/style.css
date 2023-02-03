@@ -1,0 +1,65 @@
+body{
+    background-color: #060F38;
+}
+h1{
+    color: #060F38;
+}
+img {
+    height: 210px;
+    width: 300px;
+}
+.grid {
+    flex-wrap: wrap;
+    height: 800px;
+    width: 900px;
+}
+
+
+.game-section {
+    clear: left;
+    background-size: cover;
+    background-image: url('../images/ChampionsBackground.png');
+    background-position: center;
+    height: 950px;
+}
+
+.gameHeader {
+    left: 50%;
+    transform: translate(-50%, 0);
+    color: #fcfcfb;
+    background-color: rgba(246, 241, 241, 0.8);
+    max-width: 1000px;
+    max-height: 1000px;
+    position: absolute;
+    text-align: center;
+    padding: 2px;
+}
+
+.logo-container {
+    width: 200px;
+    height: 200px;
+    background-image: url('../images/logo.png') ;
+    margin: 0 auto;
+  }
+
+
+  @media only screen and (max-width: 480px) {
+    img {
+        height: 125px;
+        width: 128px;
+    }
+    .grid {
+        flex-wrap: wrap;
+        height: 800px;
+        width: 390px;
+    }
+    .gameHeader {
+        max-height: 575px; 
+        padding: 0px;
+    }
+    .logo-container {
+        width: 100px;
+        height: 100px;
+        background-image: url('../images/logo2.png')
+  }    
+}

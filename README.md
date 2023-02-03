@@ -1,108 +1,119 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<h1 align="center">Champions League memory Game!</h1>
+<h2 align="center">The world's greatest club competition</h2>
 
-Welcome USER_NAME,
+This is a memory match game based on Players from the UEFA Champions League. The player challenges their memory by pairing up cards featuring hidden champions from the league by flipping over the cards on the board. The game ends when all champions have been successfully matched.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Play the game [here.](https://danbob81.github.io/Pokemon_Match/)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+<h4 align="center"><img src="docs/readme_items/multi_device_look.png" alt="site image"></h4>
 
-## Gitpod Reminders
+## User Experience (UX) 
+- ### User Stories
+    - I want to engage in a memory test game by pairing up identical images.
+    - I expect feedback to confirm each matching pair made and the matched images to change image so I dont play the same card twice.
+    - I expect to view my score. 
+    - I expect confirmation that the game is completed.
+    - I expect to be able to play on different devices (laptop, mobile and tablet).
+    - I anticipate receiving confirmation for each successful match and for the matched images to be displayed.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+- ### Design
+    - ### Colour scheme:
+        - Colours used on the game to match the blue, yellow and red of the official Pokemon colour scheme
+    - ### Typography:
+        - Google Fonts - [ArchitectsDaughter](https://bit.ly/3EwQP1N)
 
-`python3 -m http.server`
 
-A blue button should appear to click: _Make Public_,
+## Features
 
-Another blue button should appear to click: _Open Browser_.
+- ### Executed:
+    - Game-play area which is the dominant section of the screen layout.
+    - Rules area, slightly smaller, with simple game instructions.
+    - Image section to the opposite side of the rules section balancing out the layout. NOTE: Only shows in desktop/laptop screen sizes.
+    - Score shows under game board.
+    - Replay button.
+    - Pop-up on game completion showing 'congratulations' message and yes/no option to play again.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: _Make Public_,
+## Technologies used
 
-Another blue button should appear to click: _Open Browser_.
+- ### Languages:
+    - Javascript
+    - CSS 
+    - HTML
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- ### Frameworks, libraries and programmes:
+    - Google Fonts - font used [ArchitectsDaughter](https://bit.ly/3EwQP1N)
+    - GIMP image editing software
+    - Paint -  to edit image files
+    - Git
+    - GitHub
+## Testing
 
-To log into the Heroku toolbelt CLI:
+I used the Chrome Developer Tool to simulate the different viewport sizes for desktop and laptop views, tablet views and mobile views. I used this throughout the development process as well as for testing the website once it was deployed to GitHub Pages.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+The deployed website was also tested using Chrome, Edge and Firefox as well as on mobile (using Chrome for Android)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+- ### User stories' testing:
+    - I would like to play a simple game to test my memory by matching up pairs of images
+        - Memory match game uses Pokemon images to test the users memory - hidden images are arranged at random and change position each time the game is loaded
+    - I expect feedback to confirm each matching pair made and the matched images remain on show
+        - sound effects play at game load stage, with each card turn-over, with each non-successful and successful matching, and successful game completion. Matched image pairs remain on show
+    - I expect to see my score
+        - score is displayed below the game grid
+    - I expect confirmation that I have completed the game successfully
+        - on successful game completion, a sound is played and a pop-up modal appears with a congratulaions message
+    - I would like the option to restart/replay the game 
+        - a button appears below the game grid giving the player the option to restart. This presents a pop-up with a yes/no confirmation option. There is also a replay button within the game completion pop-up modal
+    - I expect to be able to play on different devices (laptop, mobile and tablet)
+        - the game was tested, and works, on desktop/laptop, tablet and mobile
+    - I expect to have fun! :)
+        - I had fun! :)
 
-------
+- ### Validator testing:
+    - HTML - [W3C Validator](https://bit.ly/31qLrPD) - passed
+    - CSS - [(Jigsaw) validator](https://bit.ly/3F29Zg1) - passed
+    - Javascript - [JSHint](https://jshint.com/) - passed
+- ### Additional testing:
+    the website/game was run successfully on the following browsers:
 
-## Release History
+    - Google Chrome
+    - Opera
+    - Microsoft Edge
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+    Black box testing was also carried out on the final deployed website.
+    
+    All tests passed. Results can be viewed [here](docs/readme_items/website_test_plan.pdf)
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+- ### Bugs
+    - Game grid layout displayed differently at certain mobile screen sizes (iPhone 5/SE in particular). To overcome this issue I adjusted the width percentage for the grid images.
+    - Restart game button was being pushed below the bottom line of the game section at larger screen sizes (above 1400px). To correct this I adjusted the bottom margin of the game grid.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+## Deployment
+### Github Pages
+- Site deployed to Github Pages using the following process:
+    - Click the 'Settings' tab in the GitHub repository
+    - Select 'Pages' in the left hand menu
+    - Under the heading of 'Source', select 'Master Branch' from the drop-down menu
+    - Click 'Save'
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+## Credits
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+### Content:
+- Javascript content based on this YouTube video tutorial: [Learn JavaScript by Building 7 Games - Full Course](https://bit.ly/3D45TUl) 
+from [freeCodeCamp](https://bit.ly/3bZtVE8) 
+ 
+### Media:
+- Pokemon logo taken from [pngitem.com](https://bit.ly/2ZPHsvp)
+- Ash image taken from [pngitem.com](https://bit.ly/3jWp1Mf)
+- Pokemon images taken from [The Official Pokemon Website](https://bit.ly/3w0eDIa)
+- Pokemon sounds taken from Zedge 
+    - [Pokeball Catch by julianoc](https://bit.ly/3pX7PtN) - note: I edited the original mp3 file to create three separate files using WavePad Audio Editor (free download from Microsoft Store)
+    - [pokemon go R Close by Sivilian](https://bit.ly/3bt0bPF)
+    - [Pokemon Joins Team by AlberStelar](https://bit.ly/3mArm12)
+    - [pokemon GO level up by Coolbuddyn](https://bit.ly/3BtOToV)
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+### Acknowledgements:
+- Code Institute for the lessons and support
+- My mentor Rohit Sharma for the helpful suggestions and guidance he has given during this project
+- Patrick Justus for the additional lessons and insights into web development
