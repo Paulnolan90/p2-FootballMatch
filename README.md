@@ -10,12 +10,10 @@ Play the game [here.](https://danbob81.github.io/Pokemon_Match/)
 ## Features
 
 - ### Executed:
-    - Game-play area which is the dominant section of the screen layout.
-    - Rules area, slightly smaller, with simple game instructions.
-    - Image section to the opposite side of the rules section balancing out the layout. NOTE: Only shows in desktop/laptop screen sizes.
-    - Score shows under game board.
-    - Replay button.
-    - Pop-up on game completion showing 'congratulations' message and yes/no option to play again.
+    - The main section of the screen layout is dedicated to the game play area.
+    - background image to suit color of the game and represent champions league trophy.
+    - Score(goals) show over game.
+    - Game automatically restarts when completed (delay of   3 seconds implemented).
 
 
 ## User Experience (UX) 
