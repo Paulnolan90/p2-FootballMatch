@@ -3,7 +3,7 @@
 
 This is a memory match game based on Players from the UEFA Champions League. The player challenges their memory by pairing up cards featuring hidden champions from the league by flipping over the cards on the board. The game ends when all champions have been successfully matched.
 
-Play the game [here.](https://danbob81.github.io/Pokemon_Match/)
+Play the game [here.](https://8000-paulnolan90-p2footballm-1xm5pzsmyop.ws-eu85.gitpod.io/)
 
 <h4 align="center"><img src="./assets/images/bigImage.png" alt="site image"></h4>
 
@@ -18,11 +18,11 @@ Play the game [here.](https://danbob81.github.io/Pokemon_Match/)
 
 ## User Experience (UX) 
 - ### User Stories
-    - I want to engage in a memory test game by pairing up identical images.
-    - I expect feedback to confirm each matching pair made and the matched images to change image so I dont play the same card twice.
-    - I expect to view my score. 
-    - I expect confirmation that the game is completed.
-    - I expect to be able to play on different devices (laptop, mobile and tablet).
+    - To engage in a memory test game by pairing up identical images.
+    - Feedback to confirm each matching pair made and the matched images to change image so I dont play the same card twice.
+    - To view my score. 
+    - Confirmation that the game is completed.
+    - To be able to play on different devices (laptop, mobile and tablet).
     - I anticipate receiving confirmation for each successful match and for the matched images to be displayed.
 
 - ### Design
