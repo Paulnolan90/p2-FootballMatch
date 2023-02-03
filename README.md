@@ -5,7 +5,7 @@ This is a memory match game based on Players from the UEFA Champions League. The
 
 Play the game [here.](https://danbob81.github.io/Pokemon_Match/)
 
-<h4 align="center"><img src="docs/readme_items/multi_device_look.png" alt="site image"></h4>
+<h4 align="center"><img src="./assets/images/bigImage.png" alt="site image"></h4>
 
 ## User Experience (UX) 
 - ### User Stories
@@ -80,7 +80,6 @@ The deployed website was also tested using Chrome, Edge and Firefox as well as o
     - Opera
     - Microsoft Edge
 
-    Black box testing was also carried out on the final deployed website.
     
     All tests passed. Results can be viewed [here](docs/readme_items/website_test_plan.pdf)
 
